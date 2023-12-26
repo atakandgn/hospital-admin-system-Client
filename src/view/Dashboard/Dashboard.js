@@ -322,13 +322,13 @@ export function Dashboard() {
     return (
         <Card className="h-full w-full">
             <CardHeader floated={false} shadow={false} className="rounded-none">
-                <div className="mb-8 flex items-center justify-between gap-8">
+                <div className="mb-6 flex items-center justify-between gap-8">
                     <div>
-                        <Typography variant="h5" color="blue-gray">
-                            Patients List
+                        <Typography variant="h2" color="blue-gray">
+                            <b>Patients List </b>
                         </Typography>
                         <Typography color="gray" className="mt-1 font-normal">
-                            See information about all members
+                            See information about patients...
                         </Typography>
                     </div>
                     <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
